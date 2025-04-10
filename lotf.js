@@ -1,3 +1,5 @@
+import Game from "game.js";
+
 const canvas = document.getElementById("lotf");
 const ctx = canvas.getContext("2d");
 
