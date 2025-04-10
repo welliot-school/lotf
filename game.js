@@ -1,3 +1,5 @@
+import gObject from "gobject.js"
+
 class Game extends gObject {
   constructor(posX, posY, sizeW, sizeH) {
     super(posX, posY, sizeW, sizeH);
