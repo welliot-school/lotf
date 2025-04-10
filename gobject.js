@@ -7,12 +7,10 @@ export class gObject {
     this.children = [];
   }
   
-  start() {
-    
-  }
-  
   update() {
-    
+    for (let i=0; i<this.children.length; i++) {
+      this.children[i].update();
+    }
   }
   
   drawThis(ctx) {
