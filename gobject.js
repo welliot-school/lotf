@@ -15,9 +15,9 @@ export class gObject {
     
   }
   
-  drawThis() {
+  drawThis(ctx) {
     for (let i=0; i<this.children.length; i++) {
-      this.children[i].drawThis();
+      this.children[i].drawThis(ctx);
     }
   }
   
