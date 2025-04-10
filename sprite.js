@@ -1,3 +1,5 @@
+import gObject from "gObject.js";
+
 export class Sprite extends gObject {
   constructor(sprite, posX, posY, sizeW = 0, sizeH = 0) {
     super(posX, posY, sizeW, sizeH);
